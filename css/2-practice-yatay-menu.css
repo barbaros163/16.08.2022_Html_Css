@@ -52,4 +52,11 @@ nav.acilir-menu .fa-bars:active {
 
 nav.acilir-menu:hover ul {
   display: block;
+  
+}
+
+nav.acilir-menu ul li:hover {
+  background-color: tomato;
+  cursor: pointer;
+  
 }

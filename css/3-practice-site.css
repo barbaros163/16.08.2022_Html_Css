@@ -6,6 +6,7 @@
 
 body {
   font-family: "Open Sans";
+  font-weight: 600;
 }
 
 /** NAV-TOP */
@@ -42,4 +43,44 @@ nav.nav-top img {
 }
 
 /** NAV-MAIN */
+nav.nav-main{
+  width: 100%;
+  height: 100%;
+}
 
+.nav-main  {
+  display: inline-block;
+  position: sticky;
+  top: 0;
+  background-color: #ffaa53;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: "DynaPuff", cursive;
+  padding: 2rem;
+  
+  
+}
+
+.nav-main a {
+  text-decoration: none;
+  color: black;
+  padding: 2rem;
+ 
+  
+}
+
+nav {
+  display: block;
+ 
+}
+
+.nav-main a:hover {
+  color:white;
+  
+}
+
+main p {
+  margin: 1.5rem 1rem;
+
+}
